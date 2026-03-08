@@ -125,9 +125,6 @@ Excel
 
 <img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/da7420bd-a1ad-44cc-9929-4cf962ae8163" />
 
-<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/18e52dc6-ebcf-4e34-a066-03284372868c" />
-
-<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/d7fe5e86-7337-483f-bdca-7f3a48452663" />
 
 
 ## 5. 데이터베이스 개체
