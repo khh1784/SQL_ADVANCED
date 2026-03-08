@@ -123,7 +123,11 @@ Excel
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-(https://github.com/khh1784/SQL_ADVANCED/issues/2#issue-4040638776)
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/da7420bd-a1ad-44cc-9929-4cf962ae8163" />
+
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/18e52dc6-ebcf-4e34-a066-03284372868c" />
+
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/d7fe5e86-7337-483f-bdca-7f3a48452663" />
 
 
 ## 5. 데이터베이스 개체
