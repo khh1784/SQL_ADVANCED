@@ -123,7 +123,8 @@ Excel
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/da7420bd-a1ad-44cc-9929-4cf962ae8163" />
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/32603d7c-bf6f-4a90-b08b-f6676ae926ee" />
+
 
 
 
