@@ -1,4 +1,4 @@
-# SQL_ADVANCED 1주차 정규 과제 
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/9b2cacdc-100a-454d-93dc-4d7628a839d6" /># SQL_ADVANCED 1주차 정규 과제 
 
 📌SQL_ADVANCED 정규과제는 매주 정해진 분량의 『*혼자 공부하는 SQL*』 을 읽고 학습하는 것입니다. 이번주는 아래의 **SQL_ADVANCED_1st_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
 
@@ -137,9 +137,22 @@ Excel
 
 <!-- 데이터베이스 개체에 관해 배우게 된 점을 적어주세요. -->
 
-<!-- 인덱스, 뷰, 스토어드 프로시저 실습을 각각 진행한 후, 각 실습에 대한 인증 사진을 1장씩 제출해 주세요. -->
+```
+1. 인덱스 : 데이터를 쉽게 조회하도록 함
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+2. 뷰 : 가상의 테이블
+-> 뷰 사용 이유 : 보안, 긴 SQL문 간략화
+
+3. 스토어드 프로시저 : MySQL에서 제공하는 프로그래밍 기능.
+-> 여러 개의 SQL문을 하나로 묶어 사용 가능. C, 자바, 파이썬 등 프로그래밍 언어에서 사용되는 연산식, 조건문, 반복문 등 사용가능함.
+```
+
+<!-- 인덱스, 뷰, 스토어드 프로시저 실습을 각각 진행한 후, 각 실습에 대한 인증 사진을 1장씩 제출해 주세요. -->
+<img width="960" height="502" alt="Image" src="https://github.com/user-attachments/assets/32999f79-3360-4db7-b3d3-af9eb02f68a6" />
+
+<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/616c1d8f-0081-49c6-980c-70fc15af7cf2" />
+
+<img width="960" height="499" alt="Image" src="https://github.com/user-attachments/assets/05c54459-7e33-49b1-8a02-847e1a5ce852" />
 
 ---
 
