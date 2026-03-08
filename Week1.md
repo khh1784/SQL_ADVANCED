@@ -1,4 +1,4 @@
-# SQL_ADVANCED 1주차 정규 과제 
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/a4d0d194-d606-4922-95af-e0c5aed7a333" /># SQL_ADVANCED 1주차 정규 과제 
 
 📌SQL_ADVANCED 정규과제는 매주 정해진 분량의 『*혼자 공부하는 SQL*』 을 읽고 학습하는 것입니다. 이번주는 아래의 **SQL_ADVANCED_1st_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
 
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 > MySQL / Excel / Oracle / SQL Server / MariaDB
 
 ```
-여기에 답을 적어주세요!
+Excel
 ```
 
 
@@ -66,7 +66,8 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<!-- <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/f02b6d85-4881-4007-9fd8-dded8abb1977" />
+-->
 
 
 ## 3. 건물을 짓기 위한 설계도: 데이터베이스 모델링
