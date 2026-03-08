@@ -109,7 +109,9 @@ Excel
 7) 테이블 형식 : 열에 저장될 데이터 형식
 8) 행 : 실질적 진짜 데이터 -> 행의 개수 = 데이터 개수
 9) 기본 키(PK) : 각 행 구분하는 유일한 열
-10) SQL : 사람과 DBMS가 소통하기 위한 언어 
+10) SQL : 사람과 DBMS가 소통하기 위한 언어
+```
+
 > **확인문제: 다음은 폭포수 모델의 절차입니다. 차례대로 나열해보세요.**
 
 > 시스템 설계 / 테스트 / 프로그램 구현 / 프로젝트 계획 / 업무 분석 / 유지보수
@@ -123,8 +125,11 @@ Excel
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-[![image]https://github.com/khh1784/SQL_ADVANCED/issues/5#issue-4040661901](https://private-user-images.githubusercontent.com/265241052/559882329-935b0d25-3135-4e82-8648-b185a9a3b14e.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI5NTE4MjcsIm5iZiI6MTc3Mjk1MTUyNywicGF0aCI6Ii8yNjUyNDEwNTIvNTU5ODgyMzI5LTkzNWIwZDI1LTMxMzUtNGU4Mi04NjQ4LWIxODVhOWEzYjE0ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwOFQwNjMyMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZDI0ZGE4ZTk3Y2UyNDZjYmZlNWEyZmU1YmQzMWVhYWU2NTkyMmNiN2NlZjExODc3ZmM2MzA2MDE4ZTQzYTYwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.u_TaWtfJ3CQ7wwFNNg4LEKOHRgebHb0J8mUVYsVwJuI)
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/935b0d25-3135-4e82-8648-b185a9a3b14e" />
 
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/3a201984-a293-4503-9c69-e71a7e6a2054" />
+
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/649a15ff-3aa6-43a2-9dec-f955391cff67" />
 
 
 
