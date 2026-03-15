@@ -63,8 +63,12 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ```
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 3~4장 제출해 주세요. -->
+```
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/f5bbe59a-356a-44e8-8aeb-32776df501c7" />
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/fb897592-f2a6-41a5-bb83-75b8ad592805" />
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/b9be5fb8-3070-46d0-8106-b33c37c6170f" />
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/f6e455c4-afd4-41a7-9535-a71a04db532f" />
 
 > **확인문제: 다음 SQL문의 빈칸에 들어갈 WHERE절의 문법으로 틀린 것을 고르세요.**
 
@@ -220,7 +224,7 @@ INSERT INTO students VALUES
 4. 나이가 20 이상이고 GPA가 3.5 이상인 학생을 조회하시오.
 5. students 테이블에 본인의 정보를 직접 INSERT 하시오. (INSERT 실행 후, 데이터가 정상적으로 추가되었는지 확인할 수 있도록 조회 결과까지 포함하여 캡처하시오.)
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/359cff61-6bff-43fd-a50e-e85cffab3277" />
 
 ### 🎉 수고하셨습니다.
 
