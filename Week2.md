@@ -70,6 +70,7 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/b9be5fb8-3070-46d0-8106-b33c37c6170f" />
 <img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/f6e455c4-afd4-41a7-9535-a71a04db532f" />
 
+
 > **확인문제: 다음 SQL문의 빈칸에 들어갈 WHERE절의 문법으로 틀린 것을 고르세요.**
 
 ```sql
