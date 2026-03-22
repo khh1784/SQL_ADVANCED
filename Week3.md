@@ -215,6 +215,11 @@ WHEN / THEN / CURRENT / DATE / TIME / IF / END IF / CASE
 (2) CASE
 ```
 
+![Image](https://github.com/user-attachments/assets/f3ad1d2c-b0f2-4eb9-82a9-746583e757c1)
+
+![Image](https://github.com/user-attachments/assets/70ddd77f-f197-4c2d-8383-27698c1754c4)
+
+![Image](https://github.com/user-attachments/assets/97baf62c-1f8a-4f50-b5fd-c7cf7fb4f32e)
 
 ---
 
@@ -297,7 +302,7 @@ INSERT INTO orders VALUES
    - 생성 후 CALL로 실행 결과를 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+![Image](https://github.com/user-attachments/assets/e2f19000-c162-4903-9e26-30e1936ef8ea)
 
 
 ### 🎉 수고하셨습니다.
