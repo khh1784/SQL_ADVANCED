@@ -45,7 +45,43 @@ https://www.youtube.com/watch?v=IOCsreDYqFE&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. MySQL의 데이터 형식
 
-<!-- MySQL의 데이터 형식에 관해 배우게 된 점을 적어주세요. -->
+```
+1. 정수형
+1) TINYINT : 1바이트, -128 ~ 127
+2) SMALLINT : 2바이트, -32,768 ~ 32,767
+3) INT : 4바이트, 약 -21억 ~ + 21억
+4) BIGINT : 8바이트, 약 -900경 ~ +900경
+-> UNSIGNED : 범위가 0부터 지정
+
+2. 문자형
+1) CHAR(개수) : 1 ~ 255바이트
+2) VARCHAR(개수) : 1 ~ 16383바이트
+3) TEXT
+(1) TEXT : 1 ~ 65535바이트
+(2) LONGTEXT : 1 ~ 42949672975바이트
+4) BLOB
+(1) BLOB : 1 ~ 65535바이트
+(2) LONGBLOB : 1 ~ 42949672975바이트
+
+3. 실수형
+1) FLOAT : 4바이트, 소수점 아래 7자리까지 표현
+2) DOUBLE : 8바이트, 소수점 아래 15자리까지 표현
+
+4. 날짜형
+1) DATE : 3바이트, 날짜만 저장, YYYY-MM-DD 형식
+2) TIME : 3바이트, 시간만 저장, HH:MM:SS 형식
+3) DATETIME : 8바이트, 날짜 및 시간 저장, YYYY0MM0DD HH:MM:SS 형식
+
+5. 변수의 선언 및 값 대입
+SET @변수이름 = 변수의 값; -> 변수 선언 및 값 대입
+SELECT @ 변수이름; -> 변수의 값 출력
+
+6. 데이터 형 변환
+1) 명시적 변환 : 직접 함수 사용해 변환
+(1) CAST (값 AS 데이터_형식 [(길이)])
+(2) CONVERT (값, 데이터_형식[(길이)])
+2) 암시적 변환 : 별도의 지시 없이 자연스럽게 변환 
+```
 
 > **확인문제: 다음 보기에서 데이터 형식의 변환에 사용되는 함수를 2개 고르세요.**
 
@@ -55,13 +91,46 @@ CONVERT() / DATA() / CAST() / MOVE() / TYPE() / SUM() / AVG() / CURRENT_DATE()
 ```
 
 ```
-여기에 답을 적어주세요!
+CAST(), CONVERT()
 ```
 
 
 ## 2. 두 테이블을 묶는 조인
 
 <!-- 두 테이블을 묶는 조인에 관해 배우게 된 점을 적어주세요. -->
+```
+1. 조인
+: 두 개의 테이블을 서로 묶어서 하나의 결과를 만들어 내는 것
+
+2. 일대다 관계
+: 한쪽 테이블에는 하나의 값만 존재해야 하지만, 연결된 다른 테이블에는 여러 개의 값이 존재할 수 있는 관계
+-> 조인을 위해서는 테이블이 일대다 관계로 연결되어야 함
+
+3. 내부 조인
+SELECT <열 목록>
+FROM <첫 번째 테이블>
+  INNER JOIN <두 번째 테이블>
+  ON <조인될 조건>
+[WHERE 검색 조건]
+
+4. 외부 조인
+: 두 테이블 조인 시 필요한 내용이 한쪽 테이블에만 있어도 결과 추출 가능
+SELECT <열 목록>
+FROM <첫 번째 테이블(LEFT 테이블)>
+  <LEFT | RIGHT | FULL> OUTER JOIN <두 번째 테이블(RIGHT 테이블)>
+  ON <조인될 조건>
+[WHERE 검색 조건];
+
+5. 기타 조인
+1) 상호 조인 : 한쪽 테이블의 모든 행과 다른 쪽 테이블의 모든 행을 조인시키는 기능
+-> 카티션 곱이라고도 부름
+2) 자체 조인 : 자기 자신과 조인
+SELECT <열 목록>
+FROM <테이블> 별칭A
+  INNER JOIN <테이블> 별칭B
+  ON <조인될 조건>
+[WHERE 검색 조건]
+```
 
 > **확인문제: 다음 SQL은 회원으로 가입만 하고, 한 번도 구매한 적이 없는 회원의 목록을 조회하는 쿼리입니다. 빈칸에 들어갈 가장 적절한 구문을 고르세요..**
 
@@ -81,12 +150,48 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 4. WHERE B.prod_name IS NULL
 ```
 ```
-여기에 답과 그 이유를 적어주세요!
+4. 한 번도 구매하지 않았으므로 물건 이름이 비어있을 것임. 
 ```
 
 ## 3. SQL 프로그래밍 
 
 <!-- IF문, CASE문, WHILE문, 동적 SQL에 관해 배우게 된 점을 적어주세요. -->
+
+```
+1. IF문
+IF <조건식> THEN
+  SQL문장들
+END IF;
+-> SQL 문장이 여러 개면 BEGIN ~ END로 묶기
+
+2. IF ~ ELSE문
+: 조건식이 참이면 SQL문장들1을, 아니면 SQL문장들2를 실행
+
+3. CASE문
+CASE
+  WHEN 조건1 THEN
+    SQL문장들1
+  WHEN 조건2 THEN
+    SQL문장들2
+  WHEN 조건3 THEN
+    SQL문장들3
+  ELSE
+    SQL문장들4
+END CASE;
+
+4. WHILE문
+WHILE <조건식> DO
+  SQL 문장들
+END WHILE;
+
+5. WHILE문의 응용
+1) ITERATE[레이블] : 지정한 레이블로 가서 계속 진행
+2) LEAVE[레이블] : 지정한 레이블을 빠져나감. 즉 WHILE문이 종료됨.
+
+6. 동적 SQL
+1) PREPARE : SQL문을 실행하지 않고 미리 준비함
+2) EXCUTE : 준비한 SQL문을 실행함 -> 실행 후에는 DEALLOCATE PREPARE로 문장 해제 필요
+```
 
 > **확인문제: 다음은 CASE 문의 형식입니다. 빈칸에 들어갈 가장 적절한 명령어를 보기에서 고르세요..**
 
@@ -106,8 +211,8 @@ WHEN / THEN / CURRENT / DATE / TIME / IF / END IF / CASE
 
 ```
 여기에 답을 적어주세요!
-(1)
-(2) 
+(1) WHEN
+(2) CASE
 ```
 
 
