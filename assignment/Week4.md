@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=BUHj-behLyc&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 https://www.youtube.com/watch?v=JrXWxku7ZIM&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl8Pm&index=15
 -->
 
-**교재 실습 예제 파일은 07_SQL_ADVANCED_Template 레포지토리의 src 폴더에 업로드되어 있습니다. market_db 파일도 해당 폴더에 함께 포함되어 있으니 참고하시기 바랍니다.**
+**교재 실습 예제 파일은 08_SQL_ADVANCED_Template 레포지토리의 src 폴더에 업로드되어 있습니다. market_db 파일도 해당 폴더에 함께 포함되어 있으니 참고하시기 바랍니다.**
 
 **👀(수행 인증샷은 필수입니다.)** 
 
@@ -45,9 +45,7 @@ https://www.youtube.com/watch?v=JrXWxku7ZIM&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 테이블 만들기 
 
-<!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
-
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<!-- 테이블 만들기에 관해 배우게 된 점을 적어주세요. -->
 
 
 ## 2. 제약조건으로 테이블을 견고하게 
@@ -113,7 +111,7 @@ USE week4_db;
 - grade는 INT이며 기본값(Default)을 1로 설정합니다.
 ```
 
-2. 다음 조건을 만족하는 orders 테이블을 생성하시오.
+2. 다음 조건을 만족하는 `orders` 테이블을 생성하시오.
 ```
 - order_id는 INT이며 기본키(Primary Key)로 설정합니다.
 - user_id는 INT이며 NULL을 허용하지 않습니다.
@@ -123,7 +121,7 @@ USE week4_db;
 
 3. 다음 조건을 만족하여 데이터를 삽입하시오.
 ```
-- users 테이블에 3명 이상의 데이터를 직접 INSERT 하시오.
+- users 테이블에 3명 이상의 데이터를 직접 INSERT 하시오. (단, user 중 본인이 포함돼야 함)
 - orders 테이블에 3건 이상의 데이터를 직접 INSERT 하시오.
 ```
 
