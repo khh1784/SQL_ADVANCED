@@ -74,10 +74,11 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/04965e29-4d5c-487a-bfd4-5e93c07b4ce7" />
 
 > **데이터 입력하기(75 ~ 79p)의 1~11과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-*member table 입력하기
+
+*member table 입력
 <img width="959" height="496" alt="image" src="https://github.com/user-attachments/assets/93b76103-caf7-4328-a1f2-e2cf550e0829" />
 
-*product table 입력하기
+*product table 입력
 <img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/af2eb08f-1b63-4690-9455-9940d1dff23a" />
 
 
