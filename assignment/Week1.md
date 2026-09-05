@@ -60,11 +60,13 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 02-2. 데이터베이스 시작부터 끝까지 
 > **데이터베이스 만들기(68 ~ 71p)의 1~5과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
+
 *shop_db 생성
 <img width="957" height="503" alt="image" src="https://github.com/user-attachments/assets/e74c30f1-1bcb-4e5c-bb49-43bcbb317020" />
 
 
 > **테이블 만들기(71 ~ 75p)의 1~7과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
+
 *member table 생성
 <img width="959" height="499" alt="image" src="https://github.com/user-attachments/assets/114951c5-6b2f-40ee-8d6e-496d17433542" />
 
