@@ -54,21 +54,37 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="957" height="505" alt="image" src="https://github.com/user-attachments/assets/9c0b5c91-7a91-4ffa-b0ea-817d4b8a8045" />
+
 
 
 ## 02-2. 데이터베이스 시작부터 끝까지 
 > **데이터베이스 만들기(68 ~ 71p)의 1~5과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+*shop_db 생성
+<img width="957" height="503" alt="image" src="https://github.com/user-attachments/assets/e74c30f1-1bcb-4e5c-bb49-43bcbb317020" />
+
 
 > **테이블 만들기(71 ~ 75p)의 1~7과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+*member table 생성
+<img width="959" height="499" alt="image" src="https://github.com/user-attachments/assets/114951c5-6b2f-40ee-8d6e-496d17433542" />
+
+*product table 생성
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/04965e29-4d5c-487a-bfd4-5e93c07b4ce7" />
 
 > **데이터 입력하기(75 ~ 79p)의 1~11과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+*member table 입력하기
+<img width="959" height="496" alt="image" src="https://github.com/user-attachments/assets/93b76103-caf7-4328-a1f2-e2cf550e0829" />
+
+*product table 입력하기
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/af2eb08f-1b63-4690-9455-9940d1dff23a" />
+
+
+
 
 > **데이터 활용하기(80 ~ 83p)의 1~6과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/f83c88c8-b31d-4599-b75c-4876e6905288" />
+
+
 
 ---
 
