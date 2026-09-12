@@ -45,13 +45,12 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 기본 중에 기본 SELECT ~ FROM ~ WHERE
 
-### 배우게 된 점
----
+```
 - SELECT ~ FROM: 구축된 테이블에서 원하는 데이터를 조회하는 가장 기본적인 문법
 - WHERE 조건절: 특정한 조건에 맞는 데이터만 필터링하여 검색할 때 사용
 - 관계/논리 연산자: 관계 연산자(>=, <=, =) 및 논리 연산자(AND, OR)를 조합하여 복합 조건을 작성 가능
 - BETWEEN ~ AND / IN() / LIKE: 범위 지정 시 BETWEEN, 여러 문자열 값 비교 시 IN(), 문자열 일부 패턴 검색 시 LIKE 연산자를 활용
----
+```
 
 <!-- 과제 페이지를 참조하여 인증 사진 2장을 아래의 부분을 지우고 제출해주세요. -->
 
