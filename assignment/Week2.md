@@ -55,8 +55,8 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 과제 페이지를 참조하여 인증 사진 2장을 아래의 부분을 지우고 제출해주세요. -->
 
 <img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/e37b6ba4-c0f2-4306-b749-ccdf07d4f2f9" />
-
-
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/a6740c70-f26c-4c2b-9deb-9a2cb514b101" />
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/ddb030df-a2b8-40d3-a5eb-7024eab89a26" />
 
 > **확인문제: 주소의 지역이 서울, 경기인 회원을 추출하는 SQL 문입니다. 빈칸에 들어갈 수 있는 것을 모두 고르세요.**
 
@@ -87,7 +87,6 @@ WHERE ________;
 <!-- ORDER BY절과 GROUP BY절 그리고 HAVING절에 관해 배우게 된 점을 적어주세요. -->
 
 ```
-여기에 배우게 된 점을 적어주세요!
 ORDER BY절:  조회된 결과 데이터의 출력 순서 정렬 (기본 오름차순 ASC, 내림차순 DESC)
 GROUP BY절: 동일한 값을 가진 행들을 그룹으로 묶어주며, 주로 집계 함수와 함께 그룹별 통계를 낼 때 사용
 HAVING절: GROUP BY절로 그룹화된 결과 데이터에 조건 필터링을 수행
@@ -118,7 +117,6 @@ HAVING절: GROUP BY절로 그룹화된 결과 데이터에 조건 필터링을 �
 <!-- INSERT문, UPDATE문, DELETE문에 관해 배우게 된 점을 적어주세요. -->
 
 ```
-여기에 배우게 된 점을 적어주세요!
 INSERT문: 테이블에 새로운 행 데이터를 삽입 (기본 형식: INSERT INTO 테이블 VALUES (...)) 
 UPDATE문: 기존 행 데이터를 원하는 값으로 수정 (기본 형식: UPDATE 테이블 SET 열=값 WHERE 조건)
 DELETE문: 조건에 일치하는 행 데이터를 삭제 (기본 형식: DELETE FROM 테이블 WHERE 조건)
@@ -134,7 +132,18 @@ DELETE문: 조건에 일치하는 행 데이터를 삭제 (기본 형식: DELETE
 3. 현재 구매 테이블에 존재하는 서로 다른 상품(prod_name)이 어떤 것이 있는지 조회하시오.
 4. 총 구매 금액이 1000미만인 prod_name 중 상위 2개만 조회하시오.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+1
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/b05580a7-bcff-4b28-a6df-c451785eada8" />
+
+2
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/d58226c6-e5eb-45dd-a8e4-a135f6c031ed" />
+
+3
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/f36958cb-985d-4e80-b181-ebfb9645303b" />
+
+4
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/e956a23e-9c35-4f7c-9a29-30889f1faace" />
+
 
 ### 🎉 수고하셨습니다.
 
