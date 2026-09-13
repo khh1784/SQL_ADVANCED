@@ -54,7 +54,9 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 과제 페이지를 참조하여 인증 사진 2장을 아래의 부분을 지우고 제출해주세요. -->
 
-<!-- 이 부분을 지우고 인증 사진을 제출해주세요.-->
+<img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/e37b6ba4-c0f2-4306-b749-ccdf07d4f2f9" />
+
+
 
 > **확인문제: 주소의 지역이 서울, 경기인 회원을 추출하는 SQL 문입니다. 빈칸에 들어갈 수 있는 것을 모두 고르세요.**
 
