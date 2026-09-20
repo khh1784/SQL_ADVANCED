@@ -108,7 +108,7 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 - IF문
   : 조건식이 참(True)인지 거짓(False)인지에 따라 실행할 SQL 문장을 분기하는 가장 대표적인 조건문
   
-  ```sql
+```sql
 IF <조건식> THEN
     SQL문장1; -- 조건식이 참(True)일 때 실행
 ELSE
