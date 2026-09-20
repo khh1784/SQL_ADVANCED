@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=IOCsreDYqFE&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
   1. CAST(값 AS 데이터형식) / CONVERT(값, 데이터형식): 명시적으로 데이터 타입을 변환
   2. STR_TO_DATE(문자열, 포맷): 문자열을 날짜 형식으로 변환
      
-<!-- 과제 설명 예시처럼 직접 실습 후 사진 한 장 이상을 첨부해주세요. -->
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/2f6ee939-1372-4ae4-8326-a1a32cf52c39" />
 
 > **확인문제: 다음 보기에서 데이터 형식의 변환에 사용되는 함수를 2개 고르세요.**
 
@@ -77,8 +77,16 @@ CAST(), CONVERT()
    2. RIGHT OUTER JOIN: 오른쪽 테이블의 모든 행을 기준으로 출력
 - 상호 조인 (CROSS JOIN): 한쪽 테이블의 모든 행과 다른 쪽 테이블의 모든 행을 조인하는 카티션 곱(Cartesian Product)
 - 자체 조인 (SELF JOIN): 하나의 테이블이 자기 자신과 조인하는 형태
-- 
-<!-- 과제 설명 예시처럼 직접 실습 후 인증 사진 4장 이상을 첨부해주세요. -->
+
+<img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/7600c4ac-b01a-4b5c-a171-63c3b58debc3" />
+
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/bc7b2846-1b30-42d6-bf6a-f2a637a66dc4" />
+
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/6244a439-34da-4aa9-8857-ab0344dcd677" />
+
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/603cfd4c-fadd-499f-96d6-459920b9fb80" />
+
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/e7e69ad3-c4ea-4669-9d49-57e775e44a24" />
 
 > **확인문제: 다음 SQL은 회원으로 가입만 하고, 한 번도 구매한 적이 없는 회원의 목록을 조회하는 쿼리입니다. 빈칸에 들어갈 가장 적절한 구문을 고르세요..**
 
@@ -235,26 +243,77 @@ INSERT INTO orders VALUES
 1. **데이터 형식 변환**
    - orders 테이블의 `order_date_str`을 DATE 형식으로 변환하여 조회하시오.
    (힌트: STR_TO_DATE 사용)
+```sql
+SELECT order_id, STR_TO_DATE(order_date_str, '%Y%m%d') AS order_date
+FROM orders;
+```
+<img width="959" height="504" alt="image" src="https://github.com/user-attachments/assets/3f90dce6-6081-40d2-9587-e8bdf957183f" />
 
 2. **데이터 형식 변환**
    - orders 테이블의 `amount_str`을 숫자형으로 변환하여 조회하시오.
+```sql
+SELECT order_id, CAST(amount_str AS UNSIGNED) AS amount
+FROM orders;
+```
+<img width="959" height="504" alt="image" src="https://github.com/user-attachments/assets/c2218fcd-f4c7-4e0c-95d8-9a49643c3ab3" />
+
 
 3. **내부 조인 (INNER JOIN)**
    - customers와 orders를 customer_id 기준으로 내부 조인하여
      고객 이름(name)과 주문 번호(order_id)를 함께 조회하시오.
+```sql
+SELECT C.name, O.order_id
+FROM customers C
+INNER JOIN orders O
+    ON C.customer_id = O.customer_id;
+```
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/d025c452-3cc8-4c9e-abcb-65ec1ca67c7c" />
+
 
 4. **외부 조인 (LEFT JOIN)**
    - customers를 기준으로 LEFT JOIN을 수행하여,
      주문이 없는 고객도 함께 조회하시오.
+```sql
+SELECT C.customer_id, C.name, O.order_id, O.order_date_str, O.amount_str
+FROM customers C
+LEFT JOIN orders O
+    ON C.customer_id = O.customer_id;
+```
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/199902e0-4000-4df2-bbbe-d4b6ec010f00" />
+
 
 5. **스토어드 프로시저 (IF문 사용)**
    - 입력받은 금액이 10000 이상이면 '고액 주문',
      그렇지 않으면 '일반 주문'을 출력하는
      프로시저를 생성하시오.
    - 생성 후 CALL로 실행 결과를 확인하시오.
+```sql
+-- 기존 프로시저가 있다면 삭제
+DROP PROCEDURE IF EXISTS check_order_proc;
+
+-- 프로시저 생성
+DELIMITER $$
+CREATE PROCEDURE check_order_proc(
+    IN input_amount INT
+)
+BEGIN
+    IF input_amount >= 10000 THEN
+        SELECT '고액 주문' AS "주문 유형";
+    ELSE
+        SELECT '일반 주문' AS "주문 유형";
+    END IF;
+END $$
+DELIMITER ;
+
+-- 실행 확인 (CALL)
+CALL check_order_proc(15000); -- 결과: '고액 주문'
+CALL check_order_proc(5000);  -- 결과: '일반 주문'
+```
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/1573d79f-8ef9-4c35-b923-8ae395fac1a2" />
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/5a3c2a05-9218-4278-9b08-d36eb3cc829b" />
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+
 
 
 ### 🎉 수고하셨습니다.
