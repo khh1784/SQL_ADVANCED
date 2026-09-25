@@ -182,6 +182,8 @@ INSERT INTO orders (order_id, user_id, amount, order_date) VALUES
 (102, 2, 30000, '2024-03-10'),
 (103, 3, 50000, '2024-03-12');
 ```
+<img width="1919" height="1123" alt="image" src="https://github.com/user-attachments/assets/8df7f7a8-1370-49fe-8b51-8f10932184c3" />
+
 
 4. users와 orders 테이블을 활용하여 다음 컬럼을 보여주는 뷰 user_order_view를 생성하시오.
 ```
@@ -200,13 +202,15 @@ FROM users U
 INNER JOIN orders O
     ON U.user_id = O.user_id;
 ```
-
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/2dd9c429-39ed-4168-a738-2270a5af3481" />
 
 
 5. 생성한 user_order_view를 조회하시오.
 ```sql
 SELECT * FROM user_order_view;
 ```
+<img width="1919" height="1126" alt="image" src="https://github.com/user-attachments/assets/09bb1822-f7a1-46af-8f78-3c52df2aab5c" />
+
 
 ## 3. 제출 방법
 
@@ -221,6 +225,15 @@ SELECT * FROM user_order_view;
 
 3.
 <img width="1918" height="1128" alt="image" src="https://github.com/user-attachments/assets/8ac58620-d222-4a12-b6a1-02eeaffb22a6" />
+
+<img width="1919" height="1123" alt="image" src="https://github.com/user-attachments/assets/770d76fe-7797-4ee1-8275-9fa7c4a1eb03" />
+
+4.
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/75253230-5cd9-4e20-a7b0-c8a4b98d605c" />
+
+5.
+<img width="1919" height="1126" alt="image" src="https://github.com/user-attachments/assets/0064a897-a297-4f9d-8966-2826ed14555c" />
+
 
 
 
