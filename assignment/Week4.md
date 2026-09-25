@@ -216,6 +216,7 @@ SELECT * FROM user_order_view;
 
 1. 각 문제의 실행 결과가 보이도록 화면을 캡처합니다.
 2. 테이블 생성 결과, 데이터 삽입 결과, 뷰 생성 및 조회 결과가 모두 보이도록 제출합니다.
+  
 
 1.
 <img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/52e0fed7-7b93-4930-b630-15feba299184" />
