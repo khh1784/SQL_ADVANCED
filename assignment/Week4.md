@@ -218,21 +218,21 @@ SELECT * FROM user_order_view;
 2. 테이블 생성 결과, 데이터 삽입 결과, 뷰 생성 및 조회 결과가 모두 보이도록 제출합니다.
   
 
-1.
+[1]
 <img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/52e0fed7-7b93-4930-b630-15feba299184" />
 
-2.
+[2]
 <img width="1919" height="1129" alt="image" src="https://github.com/user-attachments/assets/14493072-4a08-4d01-bba7-f2de54434831" />
 
-3.
+[3]
 <img width="1918" height="1128" alt="image" src="https://github.com/user-attachments/assets/8ac58620-d222-4a12-b6a1-02eeaffb22a6" />
 
 <img width="1919" height="1123" alt="image" src="https://github.com/user-attachments/assets/770d76fe-7797-4ee1-8275-9fa7c4a1eb03" />
 
-4.
+[4]
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/75253230-5cd9-4e20-a7b0-c8a4b98d605c" />
 
-5.
+[5]
 <img width="1919" height="1126" alt="image" src="https://github.com/user-attachments/assets/0064a897-a297-4f9d-8966-2826ed14555c" />
 
 
