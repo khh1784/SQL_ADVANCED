@@ -149,18 +149,59 @@ INSERT INTO employees VALUES
 1. department 컬럼에 보조 인덱스를 생성하시오.
     - 인덱스 생성 후, `SHOW INDEX FROM employees;` 실행 결과가 보이도록 캡처합니다.
     - (idx_department 인덱스가 존재하는지 확인되어야 합니다.)
+```
+CREATE INDEX idx_department ON employees(department);
+```
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/dc991ce1-f6cd-4cfd-92b2-4cd25f53fa31" />
+
+
+
 2. employees 테이블의 인덱스를 확인하시오.
+```
+SHOW INDEX FROM employees;
+```
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/26e30596-7973-4b64-bfd5-038105072d19" />
+
+
 3. department가 'Sales'인 직원을 조회하시오.
    - 'Sales' 조회 시, 반드시 `EXPLAIN`을 함께 실행한 화면을 캡처합니다.
    - (key 컬럼에 idx_department가 표시되어야 합니다.)
+```
+EXPLAIN SELECT * FROM employees WHERE department = 'Sales';
+```
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/71e14005-ed3e-4ce9-a03c-8057fd93383e" />
+
+
 4. 생성한 인덱스를 삭제하시오.
    - 인덱스 삭제 후, 다시 `SHOW INDEX FROM employees;`를 실행하여 idx_department가 사라진 것을 확인한 화면을 캡처합니다.
+```
+-- 인덱스 삭제
+DROP INDEX idx_department ON employees;
+
+-- 삭제 결과 확인
+SHOW INDEX FROM employees;
+```
+<img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/5adda51b-eac2-4ddf-ae3b-d06ddd4ddf2b" />
+
+<img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/f1ea5ffc-7d02-4a2b-b54b-0e95a4ea87db" />
 
 ## 3. 제출방법
 
 인덱스 생성 결과, EXPLAIN 실행 결과, 인덱스 삭제 결과가 모두 보이도록 캡처하여 제출하세요.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+1. 인덱스 생성 결과
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/342b8759-9954-4db0-9257-7a387c188a34" />
+
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/cb804d0f-6c51-429a-8eea-174d6f22ba18" />
+
+2. EXPLAIN 실행 결과
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/71e14005-ed3e-4ce9-a03c-8057fd93383e" />
+
+3. 인덱스 삭제 결과
+<img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/bdaf402d-4ddb-46cc-8a89-cb29912afa3f" />
+
+<img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/9fae69e6-cf02-4caa-9881-28ff92039fb7" />
+
 
 ### 🎉 수고하셨습니다.
 
