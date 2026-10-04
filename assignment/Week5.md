@@ -45,7 +45,18 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 인덱스 개념을 파악하자 
 
-<!-- 인덱스에 관해 배우게 된 점을 적어주세요. -->
+```
+인덱스(Index)
+: 데이터베이스 테이블에서 원하는 데이터를 빠르게 찾기 위해 생성하는 데이터 개체로, 일반 책의 '찾아보기(색인)'와 같은 역할
+종류
+.클러스터형 인덱스 (Clustered Index):
+- 영어사전처럼 데이터 자체가 인덱스 순서에 따라 정렬됨
+- 테이블당 단 1개만 생성할 수 있으며, PRIMARY KEY(기본 키)를 지정하면 자동으로 생성됨
+.보조 인덱스 (Secondary Index):
+- 책 뒤의 '찾아보기'처럼 별도의 인덱스 페이지가 만들어지며, 데이터 자체는 정렬되지 않음
+- 테이블당 여러 개 생성할 수 있으며, UNIQUE 제약조건을 설정하면 자동으로 생성
+
+```
 
 > **확인문제: 다음은 인덱스 종류와 관련된 설명입니다. 가장 거리가 먼 것을 하나 고르세요.**
 
@@ -58,13 +69,20 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ```
 
 ```
-여기에 답과 그 이유를 적어주세요!
+정답: 4
+이유:
+보조 인덱스는 UNIQUE 제약조건을 지정하거나 CREATE INDEX 문을 직접 실행할 때 자동/수동 생성됨.
+NOT NULL 제약조건은 데이터에 NULL 값을 허용하지 않는 규칙일 뿐이며, 인덱스 생성과는 아무런 관련이 없음.
 ```
 
 
 ## 2. 인덱스의 내부 작동 
 
-<!-- 인덱스의 내부 작동에 관해 배우게 된 점을 적어주세요. -->
+```
+. B-트리 (Balanced Tree, 균형 트리): MySQL(InnoDB)에서 인덱스를 관리하는 기본 자료구조로, 루트 페이지부터 리프 페이지까지 균형을 이루어 데이터 검색 속도를 획기적으로 향상시킴
+. 페이지 (Page): MySQL에서 데이터를 읽고 쓰는 최소 단위(기본 16KB)
+. 페이지 분할 (Page Split): 인덱스가 생성된 테이블에 데이터를 추가(INSERT)할 때 페이지 저장 공간이 부족하면 기존 페이지를 쪼개어 새 페이지를 만드는 작업. 이 작업이 자주 발생하면 데이터 입력 속도가 느려지고 성능이 저하되는 단점 존재
+```
 
 > **확인문제: 다음 설명에서 빈칸에 공통으로 들어갈 용어를 쓰시오.**
 
@@ -75,7 +93,7 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ```
 
 ```
-여기에 답을 적어주세요!
+페이지 분할 (또는 Page Split)
 ```
 
 
@@ -83,7 +101,11 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- '인덱스 생성과 제거 실습(310p~)' 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1919" height="1125" alt="image" src="https://github.com/user-attachments/assets/ac92d3ff-5ce1-4198-8774-4fb11dfcbe28" />
+
+<img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/8c9d652d-ab4e-495e-badb-d61bb45d42f6" />
+
+<img width="1919" height="1130" alt="image" src="https://github.com/user-attachments/assets/64f17203-59d0-4d2e-aaf5-3c2a4768d38f" />
 
 
 ---
