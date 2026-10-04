@@ -103,7 +103,9 @@ NOT NULL 제약조건은 데이터에 NULL 값을 허용하지 않는 규칙일 
 
 <img width="1919" height="1125" alt="image" src="https://github.com/user-attachments/assets/ac92d3ff-5ce1-4198-8774-4fb11dfcbe28" />
 
+
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/8c9d652d-ab4e-495e-badb-d61bb45d42f6" />
+
 
 <img width="1919" height="1130" alt="image" src="https://github.com/user-attachments/assets/64f17203-59d0-4d2e-aaf5-3c2a4768d38f" />
 
@@ -152,6 +154,7 @@ INSERT INTO employees VALUES
 ```
 CREATE INDEX idx_department ON employees(department);
 ```
+
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/dc991ce1-f6cd-4cfd-92b2-4cd25f53fa31" />
 
 
@@ -160,6 +163,7 @@ CREATE INDEX idx_department ON employees(department);
 ```
 SHOW INDEX FROM employees;
 ```
+
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/26e30596-7973-4b64-bfd5-038105072d19" />
 
 
@@ -169,6 +173,7 @@ SHOW INDEX FROM employees;
 ```
 EXPLAIN SELECT * FROM employees WHERE department = 'Sales';
 ```
+
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/71e14005-ed3e-4ce9-a03c-8057fd93383e" />
 
 
@@ -181,9 +186,12 @@ DROP INDEX idx_department ON employees;
 -- 삭제 결과 확인
 SHOW INDEX FROM employees;
 ```
+
 <img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/5adda51b-eac2-4ddf-ae3b-d06ddd4ddf2b" />
 
+
 <img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/f1ea5ffc-7d02-4a2b-b54b-0e95a4ea87db" />
+
 
 ## 3. 제출방법
 
@@ -192,13 +200,17 @@ SHOW INDEX FROM employees;
 1. 인덱스 생성 결과
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/342b8759-9954-4db0-9257-7a387c188a34" />
 
+
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/cb804d0f-6c51-429a-8eea-174d6f22ba18" />
+
 
 2. EXPLAIN 실행 결과
 <img width="1919" height="1127" alt="image" src="https://github.com/user-attachments/assets/71e14005-ed3e-4ce9-a03c-8057fd93383e" />
 
+
 3. 인덱스 삭제 결과
 <img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/bdaf402d-4ddb-46cc-8a89-cb29912afa3f" />
+
 
 <img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/9fae69e6-cf02-4caa-9881-28ff92039fb7" />
 
