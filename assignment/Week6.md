@@ -127,7 +127,13 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 실습
 ```
 
-1. 
+1. 트리거 기본 작동
+<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/fa61af7e-eb71-43b0-97e6-fa8a5f62aeec" />
+
+2. 트리거 활용
+<img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/10f91aa3-92a1-4a68-9088-68a2a99724a0" />
+
+<img width="959" height="564" alt="image" src="https://github.com/user-attachments/assets/de7bac22-2831-419c-8689-8e124dd25725" />
 
 ---
 
