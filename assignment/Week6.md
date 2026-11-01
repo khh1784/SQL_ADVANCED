@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ## 1. 스토어드 프로시저 사용 방법 
 
 <!-- 스토어드 프로시저에 관해 배우게 된 점을 적어주세요. -->
----
+> [!NOTE]
 - 스토어드 프로시저 (Stored Procedure): 여러 개의 SQL 문을 하나로 묶어 모듈화한 데이터베이스 개체로, 복잡한 쿼리를 간편하게 재호출하고 처리 속도를 향상시킬 수 있음
 - 기본 구조 및 호출: DELIMITER $$ ~ END $$로 구분을 지어 생성하며, 실행할 때는 CALL 프로시저이름()을 사용
 - 매개변수 활용:
