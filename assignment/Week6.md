@@ -58,9 +58,24 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 ```
 실습
+
+1. 스토어드 프로시저 생성
+<img width="959" height="564" alt="image" src="https://github.com/user-attachments/assets/83904786-8462-4e52-9e6f-669de476595c" />
+
+2. 입력 매개변수 활용
+<img width="959" height="566" alt="image" src="https://github.com/user-attachments/assets/f90f236d-0684-4906-b908-3dfaa422e472" />
+
+<img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/f74d493c-d22a-4a4a-8fd2-0f58b5170b71" />
+
+3. 출력 매개변수 활용
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/9928aaff-4be0-476f-a030-2dbc71725a53" />
+
+4. SQL 프로그래밍 활용
+<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/ec8cd460-67a0-42d2-ac8a-36d5951a40e1" />
+
+5. 동적 SQL
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/5f84fef0-125e-4824-b053-af032d87284c" />
 ```
-
-
 
 
 ## 2. 스토어드 함수와 커서 
@@ -82,9 +97,16 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 ```
 실습
-```
+1. 커서 기본 개념
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/15233201-01a7-43dd-ab24-d93675eccd27" />
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+2. 스토어드 함수의 사용
+<img width="959" height="566" alt="image" src="https://github.com/user-attachments/assets/3600159d-1c45-4a66-bfb2-ad6064438d67" />
+
+3. 단계별 커서 실습
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/0da7eb5c-78f2-4437-a39c-e6fde8b23beb" />
+
+```
 
 
 ## 3. 자동 실행되는 트리거 
@@ -102,9 +124,8 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 ```
 실습
-```
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
 
+```
 
 ---
 
