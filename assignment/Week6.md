@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 스토어드 함수와 커서에 관해 배우게 된 점을 적어주세요. -->
 ```
 - 스토어드 함수 (Stored Function): 사용자가 직접 정의하여 SELECT 문 안에서 호출해 사용하는 함수로, 단일 값을 계산하여 반환(RETURN)할 때 사용
-  cf) 프로시저와의 차이: RETURNS 절로 반환 형식을 지정하고 RETURN 문으로 값을 반환하며, 입력 매개변수만 사용할 수 있으며(IN 키워드                           생략), CALL이 아닌 SELECT 문 내에서 사용됨
+  cf) 프로시저와의 차이: RETURNS 절로 반환 형식을 지정하고 RETURN 문으로 값을 반환하며, 입력 매개변수만 사용할 수 있으며(IN 키워드 생략), CALL이 아닌 SELECT 문 내에서 사용됨
       생성 전 SET GLOBAL log_bin_trust_function_creators = 1; 구문으로 함수 생성 권한을 허용해야 함
 - 커서 (Cursor): 테이블의 행(Row)을 한 줄씩 차례대로 넘어가면서 세밀하게 처리하기 위한 데이터 구조
 - 커서의 5단계 처리 절차:
@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 트리거에 관해 배우게 된 점을 적어주세요. -->
 ```
-- 트리거 (Trigger): 테이블에 INSERT, UPDATE, DELETE 등의 데이터 변경 이벤트(DML)가 발생할 때 자동으로 호출되어 실행되는 스토어드 프                     로그램
+- 트리거 (Trigger): 테이블에 INSERT, UPDATE, DELETE 등의 데이터 변경 이벤트(DML)가 발생할 때 자동으로 호출되어 실행되는 스토어드 프로그램
   -> 주요 용도: 데이터 무결성 검증, 데이터 삭제/수정 시 이력(Audit) 자동 기록 및 백업 테이블 관리
 - 임시 테이블 (OLD & NEW):
   NEW 테이블: INSERT나 UPDATE 작업 시 새로 들어오는 데이터가 임시로 저장되는 공간
