@@ -60,7 +60,10 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ## 3. GUI 응용 프로그램 
 
 <!-- GUI 응용 프로그램에 관해 배우게 된 점을 적어주세요. -->
-
+- tkinter 라이브러리: 파이썬 표준 GUI 툴킷으로, 윈도우 창, 텍스트 라벨(Label), 입력창(Entry), 버튼(Button), 데이터 목록표(Listbox/Treeview) 등의 UI 요소를 손쉽게 구현
+- GUI + DB 결합:
+  1. 사용자가 윈도우 화면의 입력 폼에 회원 정보를 입력하고 [입력] 버튼을 누르면 파이썬 코드 내부에서 INSERT문이 실행되고 commit()됨
+  2. [조회] 버튼을 누르면 DB에서 SELECT한 결과를 파이썬 GUI 화면의 목록 상자에 정돈하여 보여주는 완전한 데이터베이스 응용 프로그램을 완성할 수 있음
 
 ---
 
