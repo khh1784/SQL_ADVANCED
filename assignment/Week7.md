@@ -47,8 +47,11 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="959" height="139" alt="image" src="https://github.com/user-attachments/assets/226c243a-f874-465f-bac8-5a3cb3e55e7e" />
 
+<img width="959" height="42" alt="image" src="https://github.com/user-attachments/assets/24995d0c-25f8-4b5b-9523-029310b980b5" />
+
+<img width="439" height="143" alt="image" src="https://github.com/user-attachments/assets/0620209a-8727-48c7-815d-be358b179acf" />
 
 ## 2. 파이썬과 MySQL의 연동
 
@@ -60,11 +63,12 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ## 3. GUI 응용 프로그램 
 
 <!-- GUI 응용 프로그램에 관해 배우게 된 점을 적어주세요. -->
+```
 - tkinter 라이브러리: 파이썬 표준 GUI 툴킷으로, 윈도우 창, 텍스트 라벨(Label), 입력창(Entry), 버튼(Button), 데이터 목록표(Listbox/Treeview) 등의 UI 요소를 손쉽게 구현
 - GUI + DB 결합:
   1. 사용자가 윈도우 화면의 입력 폼에 회원 정보를 입력하고 [입력] 버튼을 누르면 파이썬 코드 내부에서 INSERT문이 실행되고 commit()됨
   2. [조회] 버튼을 누르면 DB에서 SELECT한 결과를 파이썬 GUI 화면의 목록 상자에 정돈하여 보여주는 완전한 데이터베이스 응용 프로그램을 완성할 수 있음
-
+```
 ---
 
 이번 주는 마지막 주로 별도의 실습 과제는 진행하지 않습니다.
