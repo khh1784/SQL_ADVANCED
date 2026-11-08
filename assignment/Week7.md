@@ -57,7 +57,11 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="959" height="275" alt="image" src="https://github.com/user-attachments/assets/ffb88a01-0fe5-4fa5-8b66-d53bb50c46ec" />
+
+<img width="439" height="452" alt="image" src="https://github.com/user-attachments/assets/a960672f-1321-44ee-91b0-50b9b77a8c71" />
+
+<img width="439" height="450" alt="image" src="https://github.com/user-attachments/assets/11482820-e060-4f59-bf27-ecec9dce0c69" />
 
 
 ## 3. GUI 응용 프로그램 
